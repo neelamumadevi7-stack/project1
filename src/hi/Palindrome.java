@@ -19,10 +19,10 @@ public class Palindrome {
 		int num = sc.nextInt();
 		int revNum = reverseNum(num);
 
-		if (num == revNum) {
-			System.out.println("it is palindrome");
+		if (num != revNum) {
+			System.out.println("it is not palindrome number");
 		} else {
-			System.out.println("it is not a palindrome  number");
+			System.out.println("it is palindrome  number");
 		}
 
 		sc.close();
