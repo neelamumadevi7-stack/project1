@@ -16,10 +16,10 @@ public class Palindrome {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the number");
-		int nextInt = sc.nextInt();
-		int revNum = reverseNum(nextInt);
+		int num = sc.nextInt();
+		int revNum = reverseNum(num);
 
-		if (nextInt == revNum) {
+		if (num == revNum) {
 			System.out.println("it is palindrome number");
 		} else {
 			System.out.println("it is not a palindrome  number");
